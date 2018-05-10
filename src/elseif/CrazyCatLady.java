@@ -1,5 +1,5 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2017
-//    Level 0
+//    Copyright (c) The League of Amazing Programmers 2013-2018
+//    Level 9
 
 package elseif;
 
@@ -24,12 +24,16 @@ else if(cats<3&&cats>0) {
 	
 
 
-		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
+	playVideo("https://www.youtube.com/watch?v=5dsGWM5XGdg");
 
-		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
+		
 		
 	}
-	}
+else if(cats<=0) {
+	playVideo("https://www.youtube.com/watch?v=W_juM14WHNQ");
+}
+}
+	
 
 	static void playVideo(String videoURL) {
 		try {
